@@ -4,7 +4,7 @@
 .frame {
   z-index: 4;
   width: 18em;
-  position: fixed;
+  position: absolute;
   border: 1px solid #000;
   transition: opacity 0.3s;
   background-color: #fff;
