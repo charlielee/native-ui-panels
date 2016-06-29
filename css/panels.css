@@ -1,5 +1,5 @@
 /* ===== FRAME ===== */
-.frame *, .frame *::before, .frame *::after { box-sizing: border-box; }
+.frame > *, .frame > *::before, .frame > *::after { box-sizing: border-box; }
 
 .frame {
   z-index: 4;
