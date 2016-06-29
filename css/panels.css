@@ -1,0 +1,91 @@
+/* ===== FRAME ===== */
+.frame *, .frame *::before, .frame *::after { box-sizing: border-box; }
+
+.frame {
+  z-index: 4;
+  width: 18em;
+  position: fixed;
+  border: 1px solid #000;
+  transition: opacity 0.4s;
+  background-color: #fff;
+}
+
+.frame.close {
+  opacity: 0;
+}
+.frame.closing {
+  display: none;
+}
+
+.title {
+  height: 2em;
+  background: #000;
+  color: #fff;
+  font-size: 0.8em;
+  padding: 0.6em;
+  border: 0;
+  margin: 0;
+}
+
+* .title {
+  font-family: "Segoe UI", "Tahoma", serif;
+  line-height: 1;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+}
+
+.closeBtn {
+  position: relative;
+  top: -0.6em;
+  left: 0.6em;
+  float: right;
+  padding: 0.5em 1em;
+  margin: 0;
+  font-size: 1em;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.closeBtn:hover {
+  background-color: rgb(232, 17, 15);
+}
+
+/*========= PANELS ========= */
+
+
+.panel {
+  background-color: #fff;
+  margin: 0;
+}
+/*
+.panel {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+.panel h2 {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.panel ul {
+  list-style: none;
+  line-height: 1.4;
+  margin: 0;
+  padding-left: 0;
+}
+
+.panel input {
+  float: right;
+  height: 2em;
+  margin-left: 0.5em;
+}
+
+.panel input[type="text"] {
+  width: 40px;
+}*/
