@@ -15,11 +15,16 @@ var div = document.createElement("div");
 var content = document.createTextNode("content");
 div.appendChild(content);
 
-panels(id, {
+panels("examplePanel", {
   title: "Hello world",
   content: div,
   width: "250px",
   height: "250px"
 });
 
+```
+
+## Method
+```js
+panels(id, {options});
 ```
