@@ -94,7 +94,7 @@ Default: `false`
 
 This toggles whether to display the panel.
 
-#### options.canScrollPageWithDrag
+#### options.scrollPageIfOverflow
 Type: `Boolean`
 Default: `false`
 
