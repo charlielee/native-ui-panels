@@ -53,34 +53,3 @@
 .nuiPanelCloseBtn:hover {
   background-color: rgb(232, 17, 15);
 }
-
-/*===== PANEL CONTENT ===== */
-/*
-.panel {
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 0;
-  margin: 0;
-  padding: 0.5em 1em;
-}
-
-.panel h2 {
-  font-size: 1.2em;
-  margin-top: 0;
-}
-
-.panel ul {
-  list-style: none;
-  line-height: 1.4;
-  margin: 0;
-  padding-left: 0;
-}
-
-.panel input {
-  float: right;
-  height: 2em;
-  margin-left: 0.5em;
-}
-
-.panel input[type="text"] {
-  width: 40px;
-}*/
