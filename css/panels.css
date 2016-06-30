@@ -1,7 +1,7 @@
-/* ===== FRAME ===== */
-.frame > *, .frame > *::before, .frame > *::after { box-sizing: border-box; }
+/* ===== Frame ===== */
+.nuiPanelFrame > *, .nuiPanelFrame > *::before, .nuiPanelFrame > *::after { box-sizing: border-box; }
 
-.frame {
+.nuiPanelFrame {
   z-index: 4;
   position: absolute;
   border: 1px solid #000;
@@ -9,14 +9,15 @@
   background-color: #fff;
 }
 
-.frame.closing {
+.nuiPanelFrame.closing {
   opacity: 0;
 }
-.frame.closed {
+.nuiPanelFrame.closed {
   display: none;
 }
 
-.title {
+/* ===== Title Bar ===== */
+.nuiPanelTitle {
   height: 2em;
   background: #000;
   color: #fff;
@@ -26,7 +27,7 @@
   margin: 0;
 }
 
-* .title {
+.nuiPanelTitle * {
   font-family: "Segoe UI", "Tahoma", serif;
   line-height: 1;
   user-select: none;
@@ -36,7 +37,8 @@
   cursor: default;
 }
 
-.closeBtn {
+/* ===== Close Button ===== */
+.nuiPanelCloseBtn {
   position: relative;
   top: -0.6em;
   left: 0.6em;
@@ -48,7 +50,7 @@
   transition: background 0.2s;
 }
 
-.closeBtn:hover {
+.nuiPanelCloseBtn:hover {
   background-color: rgb(232, 17, 15);
 }
 
