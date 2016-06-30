@@ -1,6 +1,6 @@
 {
   "name": "native-ui-panels",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Create panel UI elements that emulate the appearance of native OS windows.",
   "main": "./lib/index.js",
   "author": "BoatsAreRockable",
