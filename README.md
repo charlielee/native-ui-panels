@@ -81,6 +81,13 @@ Default: `true`
 
 This toggles if a close button should be displayed on the title bar of the panel.
 
+#### options.canDrag
+Type: `Boolean`
+Default: `true`
+
+This toggles whether the panel can be moved or not.
+
+
 #### options.visible
 Type: `Boolean`
 Default: `false`
