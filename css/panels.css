@@ -3,7 +3,6 @@
 
 .frame {
   z-index: 4;
-  width: 18em;
   position: absolute;
   border: 1px solid #000;
   transition: opacity 0.3s;
