@@ -40,10 +40,14 @@ Default: `""`
 The text to be displayed in the title bar of the panel.
 
 #### options.content
-Type: `Node object`
+Type: `Node` or `String`
 Default: `null`
 
-The element to use as the contents of the panel. Can be either an element already in the DOM which will be removed and reinserted as a panel or an element created using `document.createElement`. 
+The contents of the panel.
+
+If `options.content` is a `Node`, it can either be an element already in the DOM which will be removed and reinserted in the panel or an element created using `document.createElement`.
+
+If `options.content` is a `String`, the string will be inserted in the panel as HTML.
 
 #### options.width
 Type: `String`
