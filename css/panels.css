@@ -13,14 +13,13 @@
 }
 
 /* ===== Frame ===== */
-.nuiPanelFrame > *, .nuiPanelFrame > *::before, .nuiPanelFrame > *::after { box-sizing: border-box; }
-
 .nuiPanelFrame {
   z-index: 4;
   position: absolute;
   border: 1px solid #000;
   transition: opacity 0.2s;
   background-color: #fff;
+  overflow: hidden;
 }
 
 .nuiPanelFrame.closing {
@@ -30,9 +29,13 @@
   display: none;
 }
 
+.nuiPanelFrame.darwin {
+  border-radius: 10px;
+}
+
 /* ===== Title Bar ===== */
 .nuiPanelTitle {
-  height: 2em;
+/*  height: 2em;*/
   background: #000;
   color: #fff;
   font-size: 0.8em;
@@ -51,17 +54,37 @@
   cursor: default;
 }
 
+.darwin div.nuiPanelTitle {
+  padding: 0.4em;
+  text-align: center;
+}
+
 /* ===== Close Button ===== */
 .nuiPanelCloseBtn {
   position: relative;
   top: -0.6em;
   left: 0.6em;
   float: right;
-  padding: 0.5em 1em;
+  padding: 0.5em;
   margin: 0;
   font-size: 1em;
   text-align: center;
   transition: background 0.2s;
+}
+
+.darwin div.nuiPanelCloseBtn {
+  top: 0;
+  left: 0;
+  float: left;
+  padding: 0.5em;
+  margin-right: 0.4em;
+  background: red;
+  border-radius: 50px;
+}
+
+.win32 div.nuiPanelCloseBtn {
+  float: right;
+  padding: 0.5em 1em;
 }
 
 .nuiPanelCloseBtn:hover {
