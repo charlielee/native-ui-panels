@@ -11,5 +11,8 @@
   },
   "bugs": {
     "url": "https://github.com/BoatsAreRockable/native-ui-panels/issues"
+  },
+  "dependencies": {
+    "winreg": "^1.2.1"
   }
 }
