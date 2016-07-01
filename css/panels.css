@@ -19,7 +19,7 @@
   z-index: 4;
   position: absolute;
   border: 1px solid #000;
-  transition: opacity 0.3s;
+  transition: opacity 0.2s;
   background-color: #fff;
 }
 
