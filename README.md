@@ -65,7 +65,7 @@ The height of the panel. Accepts any valid CSS length property.
 Type: `String`
 Default: `#000000`
 
-The color of the panel's surrounding frame. In the future setting this to `auto` will get the theme color from the Windows registry.
+The color of the panel's surrounding frame. Setting this to `auto` will get the theme color from the Windows registry.
 
 #### options.posX
 Type: `String`
@@ -78,6 +78,12 @@ Type: `String`
 Default: `5em`
 
 The location of the panel from the top edge of the window. Accepts any valid CSS length property.
+
+#### options.blocking
+Type: `Boolean`
+Default: `false`
+
+Toggle if the panel prevents other elements from being selected when it is visible.
 
 #### options.canClose
 Type: `Boolean`
