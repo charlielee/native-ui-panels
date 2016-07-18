@@ -14,5 +14,6 @@
   },
   "dependencies": {
     "winreg": "^1.2.1"
-  }
+  },
+  "postinstall": "npm install"
 }
