@@ -39,14 +39,17 @@
   background: #000;
   color: #fff;
   font-size: 0.8em;
-  padding: 0.6em;
+  padding: 0.4em 0.6em;
   border: 0;
   margin: 0;
 }
 
 .nuiPanelTitle * {
+  box-sizing: border-box;
+}
+
+.nuiPanelTitle * {
   font-family: "Segoe UI", "Tahoma", serif;
-  line-height: 1;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -84,7 +87,7 @@
 
 .win32 div.nuiPanelCloseBtn {
   float: right;
-  padding: 0.5em 1em;
+  padding: 0.6em 1em;
 }
 
 .nuiPanelCloseBtn:hover {
